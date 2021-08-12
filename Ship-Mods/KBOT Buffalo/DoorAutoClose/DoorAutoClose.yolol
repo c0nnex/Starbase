@@ -1,0 +1,20 @@
+IF :Battery < 3000 THEN goto20 END
+IF :Maint==1 then goto20 end
+IF :R_Door==0 AND :L_Door==0 THEN goto1 END
+w=:DoorCloseWait // Seconds to wait
+wt=w*5 ws=0 // 5 Ticks (0.2s) per second
+ws++ if ws<wt then goto6 end // wait until tick matches
+:R_Door=0 :L_Door=0 goto1
+
+
+
+
+
+
+
+
+
+
+
+:R_Door=0 :L_Door=0 goto1
+:R_Door=1 :L_Door=1 :ENGDoor=1 goto1 //Battery Emergency
