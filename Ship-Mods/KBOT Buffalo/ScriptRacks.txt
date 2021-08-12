@@ -1,0 +1,30 @@
+Left
+
+ISAN (Adv. Yolo Chip)
+Propellantalarm
+FuelRodAlarm
+
+MiningLaser
+SomeCheckScript
+AutoDoorControl
+
+Screen
+Screen
+Screen
+
+Right
+
+Empty   
+Empty
+Empty (Approach)
+
+Scanner
+FlowControl
+Empty
+
+SafeZoneLight
+Generator
+Nav Lights
+
+Empty
+Memory

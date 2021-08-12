@@ -1,0 +1,4 @@
+// Time per Line 0.2 Seconds
+w=10 // Seconds to wait
+wt=w*5 ws=0 // 0.2s * w = ticks
+ws++ if ws<wt then goto4 end // wait until tiock matches

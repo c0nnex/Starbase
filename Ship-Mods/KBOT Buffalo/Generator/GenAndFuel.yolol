@@ -1,0 +1,9 @@
+gbat = 1000- :Battery/10 g=:MinGen + gbat
+if g > 100 then g = 100 end
+:FuelChamberUnitRateLimit=g 
+r1=:fr1+:fr2+:fr3+:fr4+:fr5+:fr6+:fr7+:fr8
+r1+=:fr9+:fr10+:fr11+:fr12+:fr13+:fr14+:fr15+:fr16
+:FuelCheck=:fr1
+:Fuel_Rods=r1/48000
+:Prop_Percent=:Propellant/400000
+goto 1
