@@ -1,4 +1,4 @@
-#Buffalo adjustable Door Auto Close
+# Buffalo adjustable Door Auto Close
 
 * Create a Field "DoorCloseWait" in the MemoryChip (bottom right rack) holding the number of seconds you want the door to stay open
 * Exchange DoorClose Script by DoorAutoClose.yolol (Bottom Chip, Left Rack)
