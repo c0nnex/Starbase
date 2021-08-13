@@ -1,0 +1,2 @@
+if :insideSafeZone==1 then :Safe_C=2 else :Safe_C=1 end
+if :transponder==1 then :Tran_C=1 else :Tran_C=2 end goto1

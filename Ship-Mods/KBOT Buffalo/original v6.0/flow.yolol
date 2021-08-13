@@ -1,0 +1,4 @@
+IF :Left_Flow_IN==1 THEN :LFI_Colour=2 ELSE :LFI_Colour=1 END
+IF :Left_Flow_OUT==1 THEN :LFO_Colour=2 ELSE :LFO_Colour=1 END
+IF :Right_Flow_IN==1 THEN :RFI_Colour=2 ELSE :RFI_Colour=1 END
+IF :Right_Flow_OUT==1 THEN :RFO_Colour=2 ELSE :RFO_Colour=1 END goto1

@@ -1,0 +1,5 @@
+:CTP01=-7 :CTP02=-7 :LTP01=-7  :LTP02=-7 :LTP03=-7 :LTR01=-5.2
+:LTR02=5.2
+IF :M_Laser==1 THEN goto4 ELSE goto5 END
+:MiningLaser=1 goto3
+:MiningLaser=0 goto3

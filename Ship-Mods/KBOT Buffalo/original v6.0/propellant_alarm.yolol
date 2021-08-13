@@ -1,0 +1,18 @@
+alarm=0 IF :AlarmOveride==1 THEN goto1 ELSE goto2 END
+IF :Propellant<500 THEN alarm=1 ELSE alarm=0 goto1 END
+IF alarm==1 THEN :RedLight=1 :SndT=6 :SoundOn=1 ELSE :RedLight=0 END
+
+
+
+
+IF alarm==1 THEN :RedLight=0 ELSE :RedLight=0 END
+
+
+
+
+IF alarm==1 THEN :RedLight=1 ELSE :RedLight=0 END
+
+
+
+
+IF alarm==1 THEN :RedLight=0 ELSE :RedLight=0 END goto1

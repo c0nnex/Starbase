@@ -1,0 +1,12 @@
+IF :Nav_Lights ==1 then goto2 else goto1 end
+:NavRed =1 :NavGreen =1
+
+
+
+
+
+
+
+
+
+:NavRed =0 :NavGreen =0
