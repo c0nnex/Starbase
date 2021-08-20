@@ -1,0 +1,20 @@
+IF :Battery < 3000 THEN goto20 ELSE goto2 END
+IF :R_Door==1 OR :L_Door==1 THEN goto3 ELSE goto1 END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:R_Door = 0  :L_Door = 0  goto 1
+:R_Door = 1  :L_Door = 1  :ENGDoor = 1  goto 1

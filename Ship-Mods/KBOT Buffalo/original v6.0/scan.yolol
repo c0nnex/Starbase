@@ -1,0 +1,3 @@
+:i=0 n="\n"
+:scn=n+:m :scn+=n+:v :i=1 :scn+=n+:m :scn+=n+:v
+:i=0 IF :Scanner==1 THEN :Scan=1 END GOTO2

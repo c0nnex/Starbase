@@ -1,0 +1,2 @@
+:TRANSPONDER_B=1 :SAFEZONE_B=1 :LFI_Check=1 :LFO_Check=1
+:RFI_Check=1 :RFO_Check=1 goto1
